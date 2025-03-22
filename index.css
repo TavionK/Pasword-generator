@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: #1F2937;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 50%;
+    margin: 80px auto 20px;
+}
+
+#generate-btn {
+    color: white;
+    background-color: #10B981;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: .3s;
+}
+
+#generate-btn:hover{
+    background-color: #0b825a;
+}
+
+span{
+    color: #4ADF86 ;
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+hr{
+    color: #273549 ;
+}
+.pass-btn {
+    background-color: #273549;
+    border-radius: 5px;
+    margin: 20px 0;
+    color: #55F991 ;
+    padding: 20px 25px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    /* width: 200px; */
+    /* height: 58px; */
+}
+
+.l-btn {
+    margin-right: 10px;
+    width: 80%;
+}
+
+.r-btn {
+    margin-left: 10px;
+    width: 80%;
+}
+
+#title {
+    margin: 40px 0 5px 0;
+}
+#subtitle{
+    color: #D5D4D8;
+    margin: 0 0 40px 0;
+}
+
+#char-length {
+    margin: 0 0 10px 0;
+}
+
+#pass-len {
+    background-color: #273549;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 75px;
+    padding: 5px 10px;
+}
