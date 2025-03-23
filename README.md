@@ -1,6 +1,6 @@
 # Password Generator
 
-This is a simple Single Page Application (SPA) that generates secure passwords based on user input. The user specifies the desired password length, and the application generates two random passwords. Users can click on a generated password to copy it to their clipboard.
+This is a simple Single Page Application (SPA) that generates two random passwords based on the user’s desired length.
 
 ## Features
 
