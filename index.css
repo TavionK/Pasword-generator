@@ -33,8 +33,8 @@ span{
 
 #passwords {
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    flex-direction: column;
+    margin-top: 15px;
 }
 hr{
     color: #273549 ;
@@ -42,24 +42,21 @@ hr{
 .pass-btn {
     background-color: #273549;
     border-radius: 5px;
-    margin: 20px 0;
+    margin: 10px 0;
     color: #55F991 ;
     padding: 20px 25px;
     text-align: center;
     border: none;
     font-size: 16px;
-    /* width: 200px; */
-    /* height: 58px; */
+    word-wrap: break-word;
 }
 
 .l-btn {
-    margin-right: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .r-btn {
-    margin-left: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 #title {
@@ -82,4 +79,16 @@ hr{
     border-radius: 5px;
     width: 75px;
     padding: 5px 10px;
+}
+
+@media screen and (max-width: 768px){
+    
+    .container{
+        max-width: 75%;
+    }
+
+    #pass-len{
+        margin-top: 15px;
+    }
+    
 }
