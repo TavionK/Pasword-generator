@@ -22,3 +22,7 @@ This is a simple Single Page Application (SPA) that generates two random passwor
 3. Click the "Generate Passwords" button.
 4. Two random passwords will be displayed.
 5. Click on a password to copy it to the clipboard.
+
+## Preview
+
+![Password Generator Preview](pass-gen.png)
