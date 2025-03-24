@@ -36,6 +36,7 @@ span{
     flex-direction: column;
     margin-top: 15px;
 }
+
 hr{
     color: #273549 ;
 }
@@ -50,15 +51,16 @@ hr{
     font-size: 16px;
     word-wrap: break-word;
     cursor: pointer;
+    width: 100%;
 }
 
-.l-btn {
+/* .l-btn {
     width: 100%;
 }
 
 .r-btn {
     width: 100%;
-}
+} */
 
 #title {
     margin: 40px 0 5px 0;
@@ -83,7 +85,6 @@ hr{
 }
 
 @media screen and (max-width: 768px){
-    
     .container{
         max-width: 75%;
     }
@@ -92,4 +93,18 @@ hr{
         margin-top: 15px;
     }
     
+}
+
+@media screen and (min-width: 900px){
+    #passwords {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .pass-btn{
+        width: 100%;
+    }
 }
