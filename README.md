@@ -6,7 +6,7 @@ This is a simple Single Page Application (SPA) that generates two random passwor
 
 - User input for password length
 - Generates two random passwords
-- Click to copy password to clipboard
+- Click to copy the password to your clipboard
 - Simple and clean UI using HTML, CSS, and JavaScript
 
 ## Technologies Used
@@ -25,4 +25,4 @@ This is a simple Single Page Application (SPA) that generates two random passwor
 
 ## Preview
 
-![Password Generator Preview](pass-gen.png)
+![Password Generator Preview](pass-gen-screenshot.png)
