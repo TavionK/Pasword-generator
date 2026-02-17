@@ -43,6 +43,7 @@ hr{
     border: 1px solid #273549;
     border-radius: 5px;
 }
+
 .pass-btn {
     background-color: #273549;
     border-radius: 5px;
@@ -91,7 +92,6 @@ label {
     #pass-len{
         margin-top: 15px;
     }
-    
 }
 
 @media screen and (min-width: 900px){
