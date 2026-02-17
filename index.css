@@ -12,7 +12,9 @@ body{
 }
 
 #generate-btn {
-    color: white;
+    color: hsl(160, 100%, 10%);
+    font-weight: 700;
+    letter-spacing: 0.5px;
     background-color: #10B981;
     border: none;
     border-radius: 5px;
@@ -38,7 +40,8 @@ span{
 }
 
 hr{
-    color: #273549 ;
+    border: 1px solid #273549;
+    border-radius: 5px;
 }
 .pass-btn {
     background-color: #273549;
