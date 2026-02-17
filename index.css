@@ -26,6 +26,7 @@ body{
 }
 
 #generate-btn:hover{
+    color: hsl(160, 100%, 0%);
     background-color: hsl(160, 84%, 28%);
 }
 
