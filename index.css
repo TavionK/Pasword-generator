@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #1F2937;
+    background-color: hsl(215, 28%, 17%);
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -15,7 +15,7 @@ body{
     color: hsl(160, 100%, 10%);
     font-weight: 700;
     letter-spacing: 0.5px;
-    background-color: #10B981;
+    background-color: hsl(160, 84%, 39%);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -26,11 +26,11 @@ body{
 }
 
 #generate-btn:hover{
-    background-color: #0b825a;
+    background-color: hsl(160, 84%, 28%);
 }
 
 span{
-    color: #4ADF86 ;
+    color: hsl(144, 70%, 58%);
 }
 
 #passwords {
@@ -40,12 +40,12 @@ span{
 }
 
 hr{
-    border: 1px solid #273549;
+    border: 1px solid hsl(215, 30%, 22%);
     border-radius: 5px;
 }
 
 .pass-btn {
-    background-color: #273549;
+    background-color: hsl(215, 30%, 22%);
     border-radius: 5px;
     margin: 10px 0;
     color: #4ADF86;
@@ -59,14 +59,14 @@ hr{
 }
 
 label {
-    color: #D5D4D8;
+    color: hsl(255, 5%, 84%);
 }
 
 #title {
     margin: 40px 0 5px 0;
 }
 #subtitle{
-    color: #D5D4D8;
+    color: hsl(255, 5%, 84%);
     margin: 0 0 40px 0;
 }
 
@@ -75,10 +75,10 @@ label {
 }
 
 #pass-len {
-    background-color: #273549;
+    background-color: hsl(215, 30%, 22%);
     font-size: 16px;
     border: none;
-    color: #D5D4D8;
+    color: hsl(255, 5%, 84%);
     border-radius: 5px;
     width: 75px;
     padding: 5px 10px;
